@@ -1,0 +1,16 @@
+[
+{
+  "modid": "gm",
+  "name": "Guidance",
+  "description": "Adds a item called Guidance that appears after you die and respawn in the dark, and disappears after a while. Made specifically for a modpack, to be used with Hardcore Darkness, Hungry Darkness and Dynamic Lights.",
+  "version": "1.0",
+  "mcversion": "${1.12.2}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["ServantofHelix"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
