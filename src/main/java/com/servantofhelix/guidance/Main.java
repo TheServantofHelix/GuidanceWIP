@@ -1,14 +1,14 @@
 package com.servantofhelix.guidance;
 
+import com.servantofhelix.guidance.proxy.CommonProxy;
 import com.servantofhelix.guidance.util.Reference;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
 import net.minecraftforge.fml.common.SidedProxy;
-import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
-import com.servantofhelix.guidance.proxy.*;
+import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION)
 public class Main {
@@ -28,7 +28,6 @@ public class Main {
     @EventHandler
     public static void Init(FMLInitializationEvent event)
     {
-
     }
 
     @EventHandler
